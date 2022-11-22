@@ -1,0 +1,38 @@
+
+/* root */
+:root {
+    --primary-text-color:#2E2F42;
+    --desc-text-color:#434455;
+    --white-tesxt-color:
+}
+
+/* body */
+body{
+    color:var(--primary-text-color)
+}
+
+.list{
+    list-style: none;
+}
+
+/* header and footer */
+.header{
+    color: var(--primary-text-color);
+}
+.logo{
+    text-decoration: none;
+}
+.blue-logo{
+    color: #4D5AE5;
+}
+.nav{
+    color:var(--primary-text-color);
+    text-decoration: none;
+}
+.info{
+    color: var(--desc-text-color);
+    text-decoration: none;
+}
+
+
+/* hero */
