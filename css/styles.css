@@ -12,11 +12,15 @@
 body{
     color:var(--primary-text-color);
     background-color: var(--primary-bg-color) ;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 li{
     list-style: none;
 }
+/* Studio CSS */
 
 /* header and footer */
 .header{
@@ -26,6 +30,11 @@ li{
 }
 .logo{
     text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
 }
 .blue-logo{
     color:var(--accent-color);
@@ -33,10 +42,26 @@ li{
 .nav{
     color:var(--primary-text-color);
     text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
 }
 .info{
     color: var(--desc-text-color);
     text-decoration: none;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+}
+.footer{
+    background-color:var(--primary-text-color);
+}
+.footer a{
+    color: #F4F4FD;
 }
 .footer-text{
     color:#E7E9FC;
@@ -47,13 +72,22 @@ li{
 .hero{
     color:var(--primary-white-color);
     background-color: var(--primary-text-color) ;
-    
+}
+.hero h1{
+    font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 60px;
 }
 
 /*button */
-.button{
+.hero button{
     color:var(--primary-white-color);
     background-color: var(--accent-color);
+    font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
 }
 
 /* second-section */
@@ -62,18 +96,80 @@ background-color: var(--primary-bg-color);
 }
 .second-section h3 {
     color: var(--primary-text-color);
+    font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
 
 }
 .second-section p {
-    color:var(--desc-text-color)
+    color:var(--desc-text-color);
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
 }
 /* third-section */
-
-
+.third-section h2{
+    font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+}
 /* fourth-section */
 .fourth-section{
     background-color:#F4F4FD;;
 }
+.fourth-section h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+.fourth-section h3 {
+font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
 .fourth-section p{
     color:var(--desc-text-color);
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+}
+
+
+
+/* Portfolio CSS */
+
+.filter button{
+    cursor: pointer;
+    color:var(--accent-color);
+    background-color: #F4F4FD;
+    font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+}
+.filter button:hover,
+.filter button:focus{
+    background-color: var(--accent-color);
+    color:#F4F4FD;
+    cursor: pointer;
+}
+
+.portfolio-img h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.portfolio-img p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
