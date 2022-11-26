@@ -42,7 +42,7 @@ body{
 }
 .nav{
     color:var(--primary-text-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -82,7 +82,7 @@ body{
     background-color: var(--primary-text-color) ;
 }
 .hero .hero-title{
-        font-weight: 600;
+        font-weight: 500;
         font-size: 56px;
         line-height: 107%;
 }
@@ -91,7 +91,7 @@ body{
 .hero .hero-button{
     color:var(--primary-white-color);
     background-color: var(--accent-color);
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.2;
         cursor: pointer;
@@ -114,7 +114,7 @@ background-color: var(--primary-bg-color);
 }
 .second-section .second-title {
     color: var(--primary-text-color);
-        font-weight: 600;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
 
@@ -127,7 +127,7 @@ background-color: var(--primary-bg-color);
 }
 /* third-section */
 .third-section .third-title{
-        font-weight: 600;
+        font-weight: 500;
         font-size: 36px;
         line-height: 111%;
 }
@@ -136,12 +136,12 @@ background-color: var(--primary-bg-color);
     background-color:#F4F4FD;;
 }
 .fourth-section .fourth {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 40px;
 }
 .fourth-section .fourth-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 111%;
 }
@@ -160,7 +160,7 @@ background-color: var(--primary-bg-color);
     cursor: pointer;
     color:var(--accent-color);
     background-color: #F4F4FD;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         font-family: inherit;
@@ -173,7 +173,7 @@ background-color: var(--primary-bg-color);
 }
 
 .portfolio-img .portfolio-title{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color:var(--primary-text-color);
