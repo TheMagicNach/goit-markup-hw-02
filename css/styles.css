@@ -12,14 +12,16 @@
 body{
     color:var(--primary-text-color);
     background-color: var(--primary-bg-color) ;
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    
 }
-
-li{
+.list{
     list-style: none;
 }
+
+.link{
+    text-decoration: none;
+}
+
 /* Studio CSS */
 
 /* header and footer */
@@ -29,38 +31,44 @@ li{
 
 }
 .logo{
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.3;
+    color: var(--primary-text-color);
 }
 .blue-logo{
     color:var(--accent-color);
 }
 .nav{
     color:var(--primary-text-color);
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+}
+
+.nav:hover,
+.nav:focus{
+ color:var(--desc-text-color);
+} 
+
+.nav:active{
+    color: var(--accent-color);
 }
 .info{
     color: var(--desc-text-color);
-    text-decoration: none;
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
+}
+.info:hover,
+.info:focus{
+    color:var(--accent-color);
 }
 .footer{
     background-color:var(--primary-text-color);
 }
-.footer a{
+.footer .logo{
     color: #F4F4FD;
 }
 .footer-text{
@@ -73,109 +81,107 @@ li{
     color:var(--primary-white-color);
     background-color: var(--primary-text-color) ;
 }
-.hero h1{
-    font-style: normal;
+.hero .hero-title{
         font-weight: 600;
         font-size: 56px;
-        line-height: 60px;
+        line-height: 107%;
 }
 
 /*button */
-.hero button{
+.hero .hero-button{
     color:var(--primary-white-color);
     background-color: var(--accent-color);
-    font-style: normal;
         font-weight: 600;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.2;
         cursor: pointer;
+        font-family: inherit;
 }
 
-.hero button:hover,
-.hero button:hover{
-    background-color: #404BBF;
+.hero .hero-button:hover,
+.hero .hero-button:hover{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    
 }
-
+.hero .hero-button:active{
+    background-color:#404BBF;
+    color: var(--primary-white-color);
+}
 /* second-section */
 .second-section {
 background-color: var(--primary-bg-color);
 }
-.second-section h3 {
+.second-section .second-title {
     color: var(--primary-text-color);
-    font-style: normal;
         font-weight: 600;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
 
 }
-.second-section p {
+.second-section .second-desc {
     color:var(--desc-text-color);
-    font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
 }
 /* third-section */
-.third-section h2{
-    font-style: normal;
+.third-section .third-title{
         font-weight: 600;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 111%;
 }
 /* fourth-section */
 .fourth-section{
     background-color:#F4F4FD;;
 }
-.fourth-section h2 {
-    font-style: normal;
+.fourth-section .fourth {
     font-weight: 600;
     font-size: 36px;
     line-height: 40px;
 }
-.fourth-section h3 {
-font-style: normal;
+.fourth-section .fourth-title {
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 111%;
 }
-.fourth-section p{
+.fourth-section .fourth-desc{
     color:var(--desc-text-color);
-    font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
 }
 
 
 
 /* Portfolio CSS */
 
-.filter button{
+.filter .filter-button{
     cursor: pointer;
     color:var(--accent-color);
     background-color: #F4F4FD;
-    font-style: normal;
         font-weight: 600;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
+        font-family: inherit;
 }
-.filter button:hover,
-.filter button:focus{
+.filter .filter-button:hover,
+.filter .filter-button:focus{
     background-color: var(--accent-color);
     color:#F4F4FD;
     cursor: pointer;
 }
 
-.portfolio-img h2{
-    font-style: normal;
+.portfolio-img .portfolio-title{
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    color:var(--primary-text-color);
 }
 
-.portfolio-img p{
-    font-style: normal;
+.portfolio-img .portfolio-desc{
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    color:var(--desc-text-color);
 }
